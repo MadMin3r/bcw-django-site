@@ -1,0 +1,15 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+<div class="post">
+    <div class="post-info">
+        <h4>{{post.title|title}}</h4>
+        {% if post.published_date %}
+        <p>{{post.author}} - {{post.published_date|date:"jS F, Y"}}</p>
+        {% else %}
+        <p>{{post.author}}</p>
+        {% endif %}
+    </div>  
+    <p class="post-content">{{post.text|linebreaksbr}}</p>
+</div>
+{% endblock %}

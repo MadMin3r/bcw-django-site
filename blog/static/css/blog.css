@@ -9,20 +9,17 @@
     font-size: 36pt;
     text-decoration: none;
     text-align: center;
-    font-weight: 500;
-}
-
-.content{
-    margin-left: 20%;
-    margin-right: 20%;
-    width: 60%;
 }
 
 h1, h2, h3, h4 {
     color: #EF5350;
 }
 
-
+.content{
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
 
 .save {
     float: right;
@@ -39,26 +36,27 @@ h1, h2, h3, h4 {
     margin-right: 20px;
 }
 
-.post {
-    color: #FFFFFF;
-    font-size: 1.2em;
+.post-preview {
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
 }
-
-.post a {
+.post h4 {
     font-size: 2em;
 }
 
 .post a, .post a:visited {
     color: #EF5350;
+    text-decoration: none;
 }
 
 .post a:hover {
     color: rgb(238, 124, 122);
-    text-decoration: none;
-}
+}  
 
-.post-date {
+.post-info p {
     color: #AAAAAA;
+    margin-top: -15px;
 }
 
 .post-content {
