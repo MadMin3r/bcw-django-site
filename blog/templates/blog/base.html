@@ -11,16 +11,12 @@
         <div class="page-header">
             <div class="top-menu">
                 <div class="left">
-                    <a href="/">HOME</a>                
-                </div>
-                <div class="left margin-right-auto">
+                    <a href="/">HOME</a> 
                     {% if user.is_authenticated %}
                         <a href="{% url 'post_new' %}">NEW</a>
-                    {% endif %}
+                    {% endif %}               
                 </div>
-                <div class="right">
-                    <a href="/about">ABOUT</a>
-                </div>
+                <a href="/about">ABOUT</a>
             </div>
             <h1>Blog</h1>
         </div>    

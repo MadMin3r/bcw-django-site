@@ -13,6 +13,8 @@
 
 .top-menu {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .top-menu a {
@@ -23,14 +25,6 @@
 
 .top-menu .left {
     margin-right: 1em;
-}
-
-.top-menu .right {
-    margin-left: 1em;
-}
-
-.top-menu .margin-right-auto {
-    margin-right: auto;
 }
 
 h1, h2, h3, h4 {
@@ -69,25 +63,59 @@ h1, h2, h3, h4 {
     color: #EF5350;
 }
 
-.post-preview {
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
+.post-form .submit-button {
+    float: right;
+    background-color: #111111;
+    color: #FFFFFF;
+    border-style: solid;
+    border-color: #AAAAAA;
+    border-width: 0.1em;
 }
-.post h4 {
+
+.post-form .submit-button:hover {
+    transition-duration: 100ms;
+    background-color: #222222;
+}
+
+.post .post-info a, .post .post-info a:visited {
+    color: #AAAAAA;
+    text-decoration: none;
+}
+
+.post .post-info {
+    display: flex;
+    justify-content: space-between;
+}   
+
+.post .post-info h4 {
     font-size: 2em;
 }
 
-.post a, .post a:visited {
+.post .post-info a {
+    color: #AAAAAA;
+    align-self: center;
+    margin-left: 2em;
+    font-size: 13pt;
+}
+.post .post-info p {
+    color: #AAAAAA;
+    margin-top: -15px;
+}
+
+.post-preview .post-info h4 {
+    font-size: 2em;
+}
+
+.post-preview .post-info a {
     color: #EF5350;
     text-decoration: none;
 }
 
-.post a:hover {
+.post-preview .post-info a:hover {
     color: rgb(238, 124, 122);
 }  
 
-.post-info p {
+.post-preview .post-info p {
     color: #AAAAAA;
     margin-top: -15px;
 }
