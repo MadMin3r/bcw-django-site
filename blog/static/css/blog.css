@@ -23,8 +23,12 @@
     text-decoration: none;
 }
 
-.top-menu .left {
-    margin-right: 1em;
+.top-menu .left a {
+    margin-right: 0.5em;
+}
+
+.top-menu .right a {
+    margin-left: 0.5em;
 }
 
 h1, h2, h3, h4 {
@@ -77,15 +81,14 @@ h1, h2, h3, h4 {
     background-color: #222222;
 }
 
-.post .post-info a, .post .post-info a:visited {
-    color: #AAAAAA;
-    text-decoration: none;
-}
-
 .post .post-info {
     display: flex;
     justify-content: space-between;
 }   
+
+.post .post-info .right {
+    align-self: center;
+}
 
 .post .post-info h4 {
     font-size: 2em;
@@ -93,10 +96,18 @@ h1, h2, h3, h4 {
 
 .post .post-info a {
     color: #AAAAAA;
-    align-self: center;
-    margin-left: 2em;
     font-size: 13pt;
 }
+
+.post .post-info .right a {
+    margin-left: 0.5em;
+}
+
+.post .post-info a, .post .post-info a:visited {
+    color: #AAAAAA;
+    text-decoration: none;
+}
+
 .post .post-info p {
     color: #AAAAAA;
     margin-top: -15px;
