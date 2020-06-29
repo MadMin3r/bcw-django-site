@@ -1,7 +1,6 @@
 .page-header {
-    margin: 0;
-    padding: 0px 20px 20px 40px;
-    border-bottom: 0;
+    margin: 0% 25% 0% 25%;
+    border: 0;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
@@ -9,6 +8,29 @@
     font-size: 36pt;
     text-decoration: none;
     text-align: center;
+    margin: 0;
+}
+
+.top-menu {
+    display: flex;
+}
+
+.top-menu a {
+    font-size: 16pt;
+    color: #AAAAAA;
+    text-decoration: none;
+}
+
+.top-menu .left {
+    margin-right: 1em;
+}
+
+.top-menu .right {
+    margin-left: 1em;
+}
+
+.top-menu .margin-right-auto {
+    margin-right: auto;
 }
 
 h1, h2, h3, h4 {
@@ -29,17 +51,10 @@ h1, h2, h3, h4 {
     width: 100%;
 }
 
-.top-menu, .top-menu:hover, .top-menu:visited {
-    color: #FFFFFF;
-    float: right;
-    font-size: 26pt;
-    margin-right: 20px;
-}
-
 .post-preview {
-    margin-left: 20%;
-    margin-right: 20%;
-    width: 60%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
 }
 .post h4 {
     font-size: 2em;
